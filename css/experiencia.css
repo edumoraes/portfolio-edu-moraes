@@ -1,0 +1,53 @@
+.experiencia .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.grid-experiencia {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.card-experiencia {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5rem;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5rem;
+}
+
+
+.card-experiencia img {
+  width: 100%;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .card-experiencia {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.625rem;
+  }
+
+  .card-experiencia + .reverso {
+    flex-direction: row-reverse;
+  }
+
+  .card-experiencia img {
+    width: 66%;
+  }
+}

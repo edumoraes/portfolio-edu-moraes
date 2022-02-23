@@ -1,0 +1,39 @@
+.formacao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.grid-formacao {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-formacao {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 0.5rem;
+}
+
+
+.card-formacao img {
+  
+  width: 100%;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-formacao {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 2rem;
+  }
+}

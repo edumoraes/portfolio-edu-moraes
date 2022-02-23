@@ -1,0 +1,13 @@
+.sobre .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sobre img {
+  width: 6rem;
+}
+
+@media screen and (min-width: 1024) {
+  
+}
