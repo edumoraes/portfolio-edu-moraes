@@ -23,8 +23,9 @@
 
 
 .card-formacao img {
-  
-  width: 100%;
+  width: 90%;
+  height: 118px;
+  padding: 1rem;
   object-fit: contain;
   background-color: #ffffff;
 }
@@ -35,5 +36,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1rem;
     row-gap: 2rem;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .card-formacao img {
+    height: 286px;
   }
 }
